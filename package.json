@@ -1,0 +1,25 @@
+{
+  "name": "templateengine",
+  "version": "0.0.1",
+  "description": "templateEngine",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1053376250/templateEngine.git"
+  },
+  "author": "jxd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1053376250/templateEngine/issues"
+  },
+  "homepage": "https://github.com/1053376250/templateEngine#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "typescript": "^3.1.3"
+  }
+}
