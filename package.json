@@ -18,8 +18,11 @@
   "homepage": "https://github.com/1053376250/templateEngine#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^4.0.0",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-typescript": "^5.0.0-alpha.3",
+    "gulp-uglify": "^3.0.1",
     "typescript": "^3.1.3"
   }
 }
