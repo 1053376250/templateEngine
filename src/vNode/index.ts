@@ -1,0 +1,6 @@
+
+class VNode {
+	constructor(){
+		
+	}
+}

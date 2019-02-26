@@ -1,5 +1,8 @@
 
-import Index2 =require('./index2') 
-export class Index{
+class TTT {
+	constructor(options) {
 
+	}
 }
+
+export default TTT;
