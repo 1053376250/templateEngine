@@ -1,6 +1,14 @@
+import VNode from '../index'
 
-//传入新老node
-function patch(vNode: VNode,oldNode:VNode, isRoot: Boolean): void {
-	//当vnode渲染时候从data中获取数据的时候进行添加vnode更改的依赖，当数据改变的时候将数据改变压入到队列中去，等待一个事件循环周期调用执行循环玩了再patch
-	
-}
+
+//跨平台兼容 注入操作符和module
+
+// export default function patch(nodeOps:any):Function{
+// 	let {nodeOp,module}=nodeOps;
+// }
+//应该在何时触发patch操作？
+
+// 初始化操作
+// 初始化基本的事件操作
+// 初始化数据observer
+// 初始化生命周期钩子
